@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Kokoa-clone</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/48cbd33548.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="Settings">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-empty fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="./friends.html"
+            ><i class="fa-regular fa-user fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="./chats.html">
+            <i class="far fa-comment fa-xl"></i
+            ><span class="badge nav__badge">1</span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-xl"></i>
+            <div class="issues nav__issues"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="screen-header settings-header">
+      <span><i class="fa-solid fa-chevron-left fa-lg"></i></span>
+      <h1 class="screen-header__title">Settings</h1>
+      <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+    </header>
+
+    <main class="main-screen">
+      <ul class="settings-1">
+        <li>
+          <i class="fa-solid fa-bullhorn fa-xl settings__icon"></i
+          ><span>Notices</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-flask fa-xl settings__icon"></i
+          ><span>Starbucks Lab</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-info fa-xl settings__icon"></i
+          ><span>Version</span>
+          <span class="state">Latest Version</span>
+        </li>
+      </ul>
+      <div class="division-line"></div>
+      <ul class="settings-2">
+        <li>
+          <i class="fa-solid fa-lock fa-xl settings__icon"></i
+          ><span>Privacy</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-bell fa-xl settings__icon"></i
+          ><span>Notifications</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-user-group fa-xl settings__icon"></i
+          ><span>Friends</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-comment fa-xl settings__icon"></i
+          ><span>Chats</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-display fa-xl settings__icon"></i>
+          <span>Display</span>
+          <div class="badge settings-badge">N</div>
+        </li>
+        <li>
+          <i class="fa-solid fa-brush fa-xl settings__icon"></i>
+          <span>Themes</span>
+          <div class="badge settings-badge">N</div>
+          <span class="state">Default theme</span>
+        </li>
+      </ul>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/48cbd33548.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

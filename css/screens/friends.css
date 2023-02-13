@@ -1,0 +1,29 @@
+.friends-display-line {
+  display: block;
+  text-align: center;
+  padding: 5px 0px;
+  background-color: var(--division-bg-color);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--division-color);
+}
+
+.fa-circle-info {
+  margin-right: 5px;
+}
+
+.fa-angle-right {
+  margin-left: 10px;
+}
+
+.friends-screen__channel {
+  border-top: 1px solid var(--division-color);
+  padding-top: 10px;
+}
+
+.friends-screen__channel-header {
+  color: var(--division-color);
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}

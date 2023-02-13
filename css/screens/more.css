@@ -1,0 +1,98 @@
+/*more-icons*/
+.more-icons {
+  padding: var(--horizontal-space) 0px;
+}
+
+.more-icons-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-icons-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-icons .more-icons__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.more-icons__icon > i {
+  margin-bottom: 10px;
+  color: var(--second-color);
+}
+
+.more-icons__icon > span {
+  color: var(--second-color);
+}
+
+.fa-brush {
+  transform: rotate(180deg);
+}
+
+.blank {
+  width: 56.6px;
+  height: 55px;
+}
+
+/*more-suggestions*/
+
+.more-suggestions__title {
+  color: var(--second-color);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.more-suggestions__apps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-suggestions__app > i {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.more-suggestions__app > span {
+  font-size: 13px;
+  color: gray;
+}
+
+.fa-google {
+  background: linear-gradient(
+    90deg,
+    tomato 25%,
+    rgb(255, 204, 0) 25% 50%,
+    green 50% 75%,
+    blue 75% 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.fa-font-awesome {
+  background-color: #146ebe;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.fa-html5 {
+  background-color: #e44d26;
+  -webkit-background-clip: text;
+  color: transparent;
+}

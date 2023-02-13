@@ -1,0 +1,37 @@
+/* STARBUCKS PRACTICE MODE */
+
+/* @impot 순서 가장 중요함!! */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+
+@import url("./reset.css");
+@import url("./variables.css");
+
+/*components*/
+@import url("./components/status-bar.css");
+@import url("./components/nav-bar.css");
+@import url("./components/screen-header.css");
+@import url("./components/user.css");
+@import url("./components/badge.css");
+@import url("./components/division-line.css");
+
+/*screens*/
+@import url("./screens/login.css");
+@import url("./screens/friends.css");
+@import url("./screens/chats.css");
+@import url("./screens/find.css");
+@import url("./screens/more.css");
+@import url("./screens/settings.css");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+body.index {
+  background-color: var(--main-color);
+}
+
+.main-screen {
+  margin: 0px var(--vertical-space);
+}

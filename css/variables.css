@@ -1,0 +1,14 @@
+:root {
+  --main-color: #016a3e;
+  --main-color-op: #016a3e7d;
+  --second-color: #1f3a31;
+  --wood-color: #e0bf8c;
+  --darkwood-color: #5f503a;
+  --text-color: #ffffff;
+  --division-color: rgba(0, 0, 0, 0.25);
+  --division-bg-color: rgba(0, 0, 0, 0.05);
+  --font-weight: 600;
+  --font-size: 13px;
+  --horizontal-space: 20px;
+  --vertical-space: 15px;
+}

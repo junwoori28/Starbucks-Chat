@@ -1,0 +1,36 @@
+.status-bar {
+  z-index: 10;
+  background-color: var(--main-color);
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 3px 5px;
+  color: var(--second-color);
+  top: 0px;
+}
+
+.status-bar__column {
+  width: 33%;
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
+
+.status-bar__column:first-child i {
+  margin: 0px 5px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column .fa-battery-empty {
+  margin: 0px 5px;
+}

@@ -1,0 +1,31 @@
+.nav {
+  z-index: 10;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--main-color);
+  padding: 20px 20px;
+  border-top: 1px solid var(--second-color);
+}
+
+.nav__badge {
+  position: absolute;
+  bottom: 10px;
+  left: 18px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: var(--second-color);
+}
+
+.nav__issues {
+  left: 22px;
+  bottom: 18px;
+}

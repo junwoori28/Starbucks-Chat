@@ -1,0 +1,19 @@
+.badge {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  border-radius: 50%;
+  font-size: 8px;
+  color: var(--text-color);
+}
+
+.issues {
+  position: absolute;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: tomato;
+}
