@@ -1,0 +1,12 @@
+.division-line {
+  border-top: 1px solid var(--division-color);
+  padding-top: 10px;
+}
+
+.division-line__collumn {
+  display: inline;
+  height: 5px;
+  width: 1px;
+  border-left: 1px solid var(--division-color);
+  margin: 0px 5px;
+}

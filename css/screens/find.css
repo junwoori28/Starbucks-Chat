@@ -1,0 +1,142 @@
+/*issues*/
+
+.header__gear {
+  position: relative;
+}
+
+.gear__issues {
+  right: -5px;
+  bottom: 10px;
+}
+
+/*find-icons*/
+
+.find-icons {
+  padding: var(--horizontal-space) 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+
+.find-icons__icon > i {
+  margin-bottom: 25px;
+}
+
+.find-icons__icon > span {
+  color: black;
+}
+
+/*recommended-friends*/
+
+.find-recommended-friends__title {
+  color: var(--division-color);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
+
+.find-recommended-friends__text {
+  color: var(--division-color);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  display: block;
+  margin: 65px 0px;
+  text-align: center;
+}
+
+/*open-chat*/
+
+.open-chat__title {
+  display: flex;
+  justify-content: space-between;
+  color: var(--division-color);
+  margin-bottom: 10px;
+}
+
+.open-chat__text {
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
+
+.open-chat__title > a {
+  color: var(--division-color);
+  font-size: var(--font-size);
+}
+
+.open-chat-rooms__room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.open-chat-rooms__room__collumn > h2 {
+  font-size: 16px;
+  font-weight: var(--font-weight);
+}
+
+.hashtags > a {
+  font-size: var(--font-size);
+  color: var(--division-color);
+}
+
+.open-chat-rooms__room__data {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat-rooms__room__data > a {
+  color: palevioletred;
+}
+
+.open-chat-rooms__room__data > span {
+  color: var(--division-color);
+}
+
+.open-chat-rooms__room__data > img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.open-chat-rooms__room__collumn {
+  position: relative;
+}
+
+.open-chat-rooms__room__collumn > img {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.open-chat-rooms__room__collumn > .likes {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  border-radius: 20px;
+  background-color: var(--main-color-op);
+  padding: 5px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.likes > i,
+.likes > span {
+  color: white;
+  font-size: 12px;
+}
+
+.likes > i {
+  margin-right: 5px;
+}

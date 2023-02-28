@@ -1,0 +1,10 @@
+.chating-header {
+  display: flex;
+  align-items: center;
+}
+
+.chating-header > h1 {
+  padding-top: 0px;
+  font-weight: var(--font-weight);
+  font-size: 15px;
+}
